@@ -1,0 +1,263 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+header {
+    height: 80px;
+}
+.header-list {
+  margin-right: 30px;
+}
+.header-list li {
+    font-size: 11px;
+    padding-top: 20px;
+}
+.logo {
+  width: 100 px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.header-img {
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.header-txt {
+  padding: 0 0;
+}
+
+.company-wrapper {
+  height: 180px;
+}
+      
+.company {
+  width: 40%;
+  margin: 20px;
+}
+  
+.company p {
+  font-size: 10px;
+}
+
+.company h2 {
+  font-weight: bold;
+  margin: 20px 10px 0 20px;
+  font-size: 12px;
+}  
+.company-icon {
+  float: left;
+  padding-top: 10px;
+  margin-right: 30px;
+  width: 85px;
+  display: inline;
+}
+.progate {
+  padding-top: 40px;
+  padding-right: 30px;
+  margin-left: -20px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  line-height: 10px;
+}
+.heading {
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+.lessons {
+  width: 25%;
+  height: 200px;
+  margin: 10px;
+}
+.lesson {
+  float: left;
+}
+.lesson-icon {
+  padding-top: 30px;
+  margin-bottom: 15px;
+  width: 50px;
+  height: auto;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: normal;
+}
+.section-title {
+  font-size: 24px;
+}
+
+
+footer {
+  height: 120px;
+  padding: 30px 0;
+}
+  
+.footer-list {
+  float: right;
+  padding-right: 30px;
+  margin-top: -15px;
+  font-size: 12px;
+}
+  
+.footer-list li {
+  line-height: 24px;
+}
+  
+.footer-logo {
+  float: left;
+}
+  
+.footer-logo img {
+  width: 100px;
+  display: inline;
+  padding-top: 15px;
+}
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  header {
+    max-width: 670px;
+    height: 50px;
+    border-bottom: 2px solid #4F7877;
+  }
+        
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+  
+  .menu-icon {
+    display: block !important;
+  }
+  
+  .header-list {
+    display: none;
+  }
+        
+  .header-img {
+    max-width: 670px;
+    padding: 50px 20px 30px 20px;
+  }
+        
+  .header-txt {
+    padding: 20px;
+  }
+        
+  .header-txt h1 {
+    font-size: 20px;
+    line-height: 12px;
+  }
+        
+  .header-txt p {
+    font-size: 12px;
+  }
+  
+  
+  .company-wrapper {
+    height: 250px;
+    border-bottom: 2px solid #4F7877;
+    padding: 3px 30px ;
+  }
+            
+  .company {
+    width: 80%;
+    display: block;
+    float: left;
+    margin: 10px 10px;
+  }
+        
+  .company h2 {
+    font-size: 12px;
+    display: block;
+    padding: 5px;
+  }  
+  .company-icon {
+    width: 96px;
+    padding: 5px;
+  }
+  .progate {
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .heading {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+  .heading h2 {
+    font-size: 16px;
+  }
+  .heading p {
+    font-size: 12px;
+  }
+  .lessons {
+    width: 85%;
+  }
+  .lesson {
+    float: none;
+  }
+  
+  .txt-contents {
+    width: 70%;
+    font-size: 11px;
+  }
+  
+  .contact-form {
+    padding: 10px 10px 10px 30px;
+  }
+  .contact-form p {
+    font-size: 11px;
+  }
+        
+  .section-title {
+    font-size: 16px;
+  }
+  input, textarea {
+    width: 80%;
+    margin-bottom: 5px;
+    font-size: 11px;
+  }
+        
+  textarea {
+    padding: 25px 10px;
+  }
+  .submit {
+    display: inline;
+    background-color: #A9D6D5;
+    color: white;
+    width: 80%;
+  }
+  
+  
+  footer {
+    height: 90px;
+    padding: 20px 0;
+  }
+    
+  .footer-list {
+    margin-right: 5px;
+    font-size: 11px;
+  }
+    
+  .footer-list li {
+    line-height: 18px;
+  }
+    
+  .footer-logo {
+    float: left;
+  }
+    
+  .footer-logo img {
+    width: 96px;
+    display: inline;
+    padding-top: 20px;
+  }
+  
+  }

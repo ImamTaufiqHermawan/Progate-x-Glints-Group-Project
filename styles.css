@@ -1,0 +1,245 @@
+/*imam*/
+body {
+  font-family: roboto;
+  margin: 0 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #4F7877;
+  border-bottom: 5px solid rgb(44, 70, 69);
+  position: fixed;
+  top:0;
+  z-index: 10;
+  opacity: 98%
+}
+.header-left {
+  float: left;
+}
+.logo {
+  width: 120px;
+  margin-top: 20px;
+  padding-left: 5%;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 5%;
+  display: none !important;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+}
+
+.header-list {
+  float: right;
+  padding-right: 30px;
+}
+
+.header-list li {
+  color: rgb(134, 207, 212);
+  font-size: 14px;
+  float: left;
+  padding: 10px;
+}
+.header-list li:hover {
+  color: white;
+}
+
+.header-img {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url('img/header.png');
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.header-txt {
+  padding: 50px;
+}
+
+.header-txt h1 {
+  font-size: 60px;
+  line-height: 20px;
+}
+
+.header-txt p {
+  font-size: 30px;
+}
+
+span {
+  color: yellow;
+}
+
+/*chlaudya*/ 
+.company-wrapper {
+  height: 230px;
+  background-color: #ebfffe;
+  border-bottom: 15px solid #4F7877;
+  text-align: center;
+}
+    
+.company {
+  color:black;  
+  width: 43%;
+  margin: 30px 30px 50px 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.company h2 {
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 20px;
+}  
+.company-icon {
+  display: inline-block;
+  float: left;
+  margin: 0 20px 0 0;
+  padding: 0;
+  width: 150px;
+}
+
+/*krisna*/ 
+.lesson-wrapper {
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #7BA6A5;
+  text-align: center;
+  line-height: 15px;
+  border-bottom: 2px solid #4F7877;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: left;
+}
+.heading h2 {
+  font-size: 36px;
+}
+.heading p {
+  font-size: 20px;
+}
+.lessons {
+  width: 22%;
+  border-radius: 20px;
+  border-bottom: 7px solid black;
+  border-left: 7px solid black;
+  border-top: 7px solid black;
+  border-right: 7px solid black;
+  box-shadow: 4px 4px 8px #4F7877;
+  background-color: #A9D6D5;
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+}
+
+.lesson {
+  display: block;
+ }
+
+.lesson-icon {
+  padding-top: 40px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: auto;
+}
+  
+.txt-contents {
+  width: 75%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: normal;
+}
+/*prada*/
+.contact-form {
+  padding: 80px 10px 120px 80px;
+  background-color: #A9D6D5;
+  color: white;
+}
+
+.section-title {
+  font-size: 40px;
+  color: white;
+}
+input, textarea {
+  width: 400px;
+  margin-bottom: 5px;
+  padding: 20px;
+  font-size: 18px;
+  background: #4F7877;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: block;
+}
+
+textarea {
+  padding: 50px 20px;
+}
+.submit {
+  display: inline;
+  background-color: #A9D6D5;
+  color: white;
+  width: 400px;
+}
+.contact-submit {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #4F7877;
+  height: 150px;
+  padding: 30px 0;
+}
+
+.footer-list {
+  display: inline;
+  float: right;
+  color: white;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: -30px;
+}
+
+.footer-list li {
+  line-height: 36px;
+}
+
+.footer-logo {
+  float: left;
+  margin-left: 5%;
+}
+
+.footer-logo img {
+  width: 120px;
+  display: inline;
+  padding-top: 10px;
+}
